@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MahaVidya</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- CDN for bootstrap and jquery -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <!-- JQUERY Plugin -->
+      <!-- Required Stylesheet -->
+      <link href="common.css" rel="stylesheet">
+      <!-- jQuery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <!-- Main JavaScript -->
+      <script src="pluginScript.js"></script>
+    <!-- JQUERY Plugin -->
+
+    <!-- CDN for bootstrap and jquery -->
+  </head>
+  <body style="font-family:'Courier New', Courier, monospace;">
+
+    <!-- FIXED SOCIAL ICONS -->
+      <div class="d-none d-lg-flex flex-column justify-content-between position-fixed me-3 end-0 bottom-0 text-end" style="height:40%;z-index:10;">
+        <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"><i class="bi bi-instagram fs-1 p-2 text-light social" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Instagram"></i></a>
+        <a href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJteCI6IjIifQ%3D%3D%22%7D" target="_blank"><i class="bi bi-twitter fs-1 p-2 text-light social" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="twitter"></i></a>
+        <a href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp fs-1 p-2 text-light social" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Whatsapp"></i></a>
+      </div>
+    <!-- FIXED SOCIAL ICONS -->
+
+
+    <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-lg fixed-top u-fade-type-static js-window-trigger">
+        <div class="container-fluid">
+          <a class="navbar-brand ps-3" href="#"> <img src="LOGOw.png" alt="MahaVidya" width="250" height="35"> </a>
+          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-center" id="navbarText">
+            <ul class="navbar-nav ms-auto d-flex justify-content-center flex-row">
+              <li class="nav-item">
+                <a class="nav-link text-light px-3" id="homeL" aria-current="page" href="#"> <i class="bi bi-house-door-fill fs-3 link"></i> </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light px-3" id="aboutL"  href="#about"> <i class="bi bi-person fs-3 link"></i> </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light px-3" id="storeL"  href="#store"> <i class="bi bi-shop fs-3 link"></i> </a>
+              </li>
+            </ul>
+            <a href="#contact" class="ps-lg-5"><button class="btn btn-outline-light fw-bolder">Contact <i class="bi bi-arrow-right"></i></button></a>
+          </div>
+
+        </div>
+      </nav>
+    <!-- NAVBAR -->
+
+
+    <!-- HERO-SECTION -->
+      <div id="hero" class="text-light position-relative">
+        <div class="position-relative text-center text-md-start p-0 ps-md-5 text-light">
+          <p class="fs-4 fw-bold p-0 ps-md-5 u-fade-type-left js-scroll-trigger">WELCOME TO MAHAVIDYA</p>
+          <p class="display-4 fw-bolder p-0 ps-md-5 u-fade-type-left js-scroll-trigger">Here We Curating <br>influential books, <br>and spread knowledge <br>globally.</p>
+          <div class="container-fluid mt-5">
+            <div class="row pt-5">
+              <div class="col-12">
+                <a href="#" class="ps-md-5 pt-5 u-fade-type-left js-scroll-trigger"><button class="btn btn-outline-light m-0 fs-5 border-2 rounded-0 ">VISIT STORE <i class="bi bi-arrow-right"></i></button></a>
+                <a href="#" class="ps-md-5 pt-5 u-fade-type-right js-scroll-trigger"><button class="btn btn-outline-light fs-5 border-2 rounded-0">MORE ABOUT US</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- HERO-SECTION --> 
+     
+
+    <!-- ABOUT SECTION -->
+    <div class="container-fluid position-relative text-black" id="about">
+      <div class="row">
+        <div class="col-12 p-0 m-0">
+          <!-- PARALLAX -->
+          <div>
+            <div class="par1" style="z-index:-10;">
+              <div class="position-fixed px-5 text-center text-md-end" style="top:50%;left:50%;transform:translate(-50%,-50%);width:100%;z-index:-9;">
+                <p class="text-light fs-3">Our<u> Slogan </u>;</p>
+                <p class="text-light display-2">"Where Knowledge Flows and Wisdom Grows"</p>
+              </div>
+            </div>
+             <!-- INDICATOR -->
+            <!-- <span style="position:absolute;width:5px;height:200px;top:30%;left:5%;background-image:linear-gradient(white 0%,white 39%,black 39%);border-radius:25px;z-index:3;"></span> -->
+            <!-- INDICATOR -->
+          </div>
+          <!-- PARALLAX -->
+
+          <div class="pt-5">
+            <!-- Indicator -->
+              <div class="position-absolute" style="height:200px;width:10px;top:17%;left:3%;background-image:linear-gradient(white,black,black);">
+              </div>
+            <!-- Indicator -->
+
+            <p class="fs-4 text-center text-md-start u-fade-type-static js-scroll-trigger" style="padding-left:85px">Lights On</p>
+            <p class="fw-bolder display-3 text-center text-md-start u-fade-type-static js-scroll-trigger" style="line-height:5px;padding-left:85px">A<u>bout</u></p>
+            <p class="text-start fw-bolder fs-5 pt-5 u-fade-type-static js-scroll-trigger"><u class="ps-5 ms-5">At Mahavidya,</u> we believe that books are more than just printed words on paper—they are gateways to knowledge, wisdom, and enlightenment. Since our inception in 1950, we have been dedicated to curating an unparalleled collection of books that spans continents and centuries, catering to the diverse literary tastes of our global readers.</p>
+          </div>
+
+          <!-- PARALLAX -->
+          <div class="text-center py-5">
+            <div class="par2" style="z-index:-10;">
+              <div id="goal" class="position-fixed px-5 text-center text-md-start" style="top:50%;left:50%;transform:translate(-50%,-50%);width:100%;z-index:-9;">
+                <p class="text-light fs-4">Why <u>Choose Us</u> ?</p>
+                <p class="text-light display-4">At Mahavidya, we offer a tailored reading experience with personalized book recommendations and expert guidance.</p>
+              </div>
+            </div>
+          </div>
+          <!-- PARALLAX -->
+          </div>
+        </div>
+      </div>
+    <!-- ABOUT SECTION -->
+
+
+    <!-- STORE_SECTION -->
+      <!-- COUNTER SECTION -->
+      <div class="container-fluid position-relative pt-5 text-black" id="store">
+        <!-- Indicator -->
+        <div class="position-absolute" style="height:140px;width:10px;top:-10%;left:50%;background-image:linear-gradient(black,black,grey,transparent);transform:translateX(-50%);">
+        </div>
+      <!-- Indicator -->
+        <div class="row">
+          <div class="col-12 text-center">
+            <p class="fs-4 u-fade-type-static js-window-trigger">Lights On</p>
+            <p class="fw-bolder display-3 u-fade-type-static js-window-trigger" style="line-height:5px;">S<u>tore</u></p>
+            <p class="text-start fw-bolder fs-5 pt-5 u-fade-type-static js-window-trigger"><u>Mahavidya is not just a bookstore</u>; it is a homage to India's rich cultural heritage and its age-old reverence for knowledge and learning. The ancient Nalanda University, a beacon of education and scholarship in ancient India, inspires our mission. <a class="d-none d-md-inline text-black" style="text-decoration:none;">Just as Nalanda was a center of excellence attracting scholars from across the world, Mahavidya aims to be a modern-day hub for book lovers seeking knowledge and wisdom.</a></p>
+            <!-- COUNTER INCREAMENT -->
+            <div class="row row-cols-1 row-cols-md-3 text-center pt-3">
+              <div class="col counter" data-interval="47" data-target="127">
+                <p class="fw-bolder fs-5 pt-3 u-fade-type-left js-scroll-trigger">Awards Recived</p>
+                <h1 class="fw-bolder display-1 u-fade-type-left js-scroll-trigger">0</h1>
+              </div>
+              <div class="col counter" data-interval="1" data-target="1505">
+                <p class="fw-bolder fs-5 pt-3 u-fade-type-static js-scroll-trigger">Cups of Coffee</p>
+                <h1 class="fw-bolder display-1 u-fade-type-static js-scroll-trigger">0</h1>
+              </div>
+              <div class="col counter" data-interval="52" data-target="109">
+                <p class="fw-bolder fs-5 pt-3 u-fade-type-right js-scroll-trigger">Happy Client</p>
+                <h1 class="fw-bolder display-1 u-fade-type-right js-scroll-trigger">0</h1>
+              </div>
+            </div>
+            <!-- COUNTER INCREAMENT -->
+          </div>
+        </div>
+      </div>
+      <!-- COUNTER SECTION -->
+      <!-- STORE SLIDER -->
+      <div class="container-fluid position-relative py-5" style="background-color:black;">
+        <div class="row my-0 py-0">
+          <p class="text-center fs-3 text-light">keep <u>CALM</u> and <u>BUY</u> up.</p>
+          <!-- BOOKS -->
+        <div class="col-12 col-md-10 offset-md-2 text-light pt-2 u-fade-type-right js-scroll-trigger">   
+          <p class="text-md-end text-sm-center display-3 ps-md-3">Evocative <u>Book's</u></p>
+          <div class="d-flex scroll-container mt-3">
+
+              <div class="image-container" style="background-image:url(https://m.media-amazon.com/images/I/71H3j7tjKgL._AC_UF1000,1000_QL80_.jpg);width:270px;"> 
+                  <div class="overlay p-2">
+                      <div class="overlay-text text-light">
+                          <p class="mb-3  underline fs-2">Poetry & Drama ~ $10</h5>
+                          <h1><i class="bi bi-heart"></i></h1>
+                          <h1><i class="bi bi-cart-plus"></i></h1>
+                          <h1><i class="bi bi-bookmark-plus"></i></h1>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="image-container" style="background-image:url(https://www.bookmagicindia.co.in/wp-content/uploads/2019/09/THE-ULTIMATE-BOOK-OF-ARTS-CRAFTS-1.png);width:270px;"> 
+                  <div class="overlay p-2">
+                      <div class="overlay-text text-light">
+                          <h5 class="mb-3 underline fs-2">Arts & Crafts ~ $9</h5>
+                          <h1><i class="bi bi-heart"></i></h1>
+                          <h1><i class="bi bi-cart-plus"></i></h1>
+                          <h1><i class="bi bi-bookmark-plus"></i></h1>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="image-container" style="background-image:url(https://c4.wallpaperflare.com/wallpaper/669/274/496/marvel-iron-man-hd-iroman-marvel-comic-books-wallpaper-preview.jpg);width:270px;"> 
+                  <div class="overlay p-2">
+                      <div class="overlay-text text-light">
+                          <h5 class="mb-3 underline fs-2">Superhero Comics ~ $25</h5>
+                          <h1><i class="bi bi-heart"></i></h1>
+                          <h1><i class="bi bi-cart-plus"></i></h1>
+                          <h1><i class="bi bi-bookmark-plus"></i></h1>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="image-container" style="background-image:url(https://foodtank.com/wp-content/uploads/2022/12/Cookbooks-reading-lists-chefs-Ottolenghi.png);width:270px;"> 
+                  <div class="overlay p-2">
+                      <div class="overlay-text text-light">
+                          <h5 class="mb-3 underline fs-2">Cookbooks & Food ~ $19</h5>
+                          <h1><i class="bi bi-heart"></i></h1>
+                          <h1><i class="bi bi-cart-plus"></i></h1>
+                          <h1><i class="bi bi-bookmark-plus"></i></h1>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="image-container" style="background-image:url(https://images-cdn.ubuy.qa/64f75824bd1c933aa53c4564-wings-of-fire-graphic-novels-6-books.jpg);width:270px;"> 
+                  <div class="overlay p-2">
+                      <div class="overlay-text text-light">
+                          <h5 class="mb-3 underline fs-2">Graphic Novels ~ $11</h5>
+                          <h1><i class="bi bi-heart"></i></h1>
+                          <h1><i class="bi bi-cart-plus"></i></h1>
+                          <h1><i class="bi bi-bookmark-plus"></i></h1>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="image-container" style="background-image:url(https://m.media-amazon.com/images/I/71H3j7tjKgL._AC_UF1000,1000_QL80_.jpg);width:270px;"> 
+                <div class="overlay p-2">
+                    <div class="overlay-text text-light">
+                        <p class="mb-3  underline fs-2">Poetry & Drama ~ $10</h5>
+                        <h1><i class="bi bi-heart"></i></h1>
+                        <h1><i class="bi bi-cart-plus"></i></h1>
+                        <h1><i class="bi bi-bookmark-plus"></i></h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="image-container" style="background-image:url(https://www.bookmagicindia.co.in/wp-content/uploads/2019/09/THE-ULTIMATE-BOOK-OF-ARTS-CRAFTS-1.png);width:270px;"> 
+              <div class="overlay p-2">
+                  <div class="overlay-text text-light">
+                      <h5 class="mb-3 underline fs-2">Arts & Crafts ~ $9</h5>
+                      <h1><i class="bi bi-heart"></i></h1>
+                      <h1><i class="bi bi-cart-plus"></i></h1>
+                      <h1><i class="bi bi-bookmark-plus"></i></h1>
+                  </div>
+              </div>
+          </div>
+
+          </div>
+        </div>
+        <!-- BOOKS -->
+
+        <!-- STATIONARY -->
+        <div class="col-12 col-md-10 offset-md-0 text-light pt-2 u-fade-type-left js-scroll-trigger">
+      <p class="text-md-start text-sm-center display-1">Parch<u>ment Pl</u>ace</p>
+      <div class="d-flex scroll-container mt-3">
+
+          <div class="image-container" style="background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYq6c6FFXbOi5y6Wmht62Dlc0knMdKywsPBlfQSC5K-1PpvZ8kwGSCZgrbDSsNNB7sdy8&usqp=CAU);width:270px;"> 
+              <div class="overlay p-2">
+                  <div class="overlay-text text-light">
+                      <p class="mb-3  underline fs-2">Pens ~ $11</h5>
+                      <h1><i class="bi bi-heart"></i></h1>
+                      <h1><i class="bi bi-cart-plus"></i></h1>
+                      <h1><i class="bi bi-bookmark-plus"></i></h1>
+                  </div>
+              </div>
+          </div>
+
+          <div class="image-container" style="background-image:url(https://w7.pngwing.com/pngs/629/719/png-transparent-vertical-version-vintage-paper-scroll-background-vertical-version-reel-paper-announcement.png);width:270px;"> 
+              <div class="overlay p-2">
+                  <div class="overlay-text text-light">
+                      <h5 class="mb-3 underline fs-2">Sheets ~ $5</h5>
+                      <h1><i class="bi bi-heart"></i></h1>
+                      <h1><i class="bi bi-cart-plus"></i></h1>
+                      <h1><i class="bi bi-bookmark-plus"></i></h1>
+                  </div>
+              </div>
+          </div>
+
+          <div class="image-container" style="background-image:url(https://img.freepik.com/premium-photo/objects-artist-wooden-table_53876-44687.jpg);width:270px;"> 
+              <div class="overlay p-2">
+                  <div class="overlay-text text-light">
+                      <h5 class="mb-3 underline fs-2">Colors Palette ~$9</h5>
+                      <h1><i class="bi bi-heart"></i></h1>
+                      <h1><i class="bi bi-cart-plus"></i></h1>
+                      <h1><i class="bi bi-bookmark-plus"></i></h1>
+                  </div>
+              </div>
+          </div>
+
+          <div class="image-container" style="background-image:url(https://img.freepik.com/premium-photo/old-vintage-envelopes-with-letters-ai-generated_990017-105.jpg);width:270px;"> 
+              <div class="overlay p-2">
+                  <div class="overlay-text text-light">
+                      <h5 class="mb-3 underline fs-2">Envelops ~ $19</h5>
+                      <h1><i class="bi bi-heart"></i></h1>
+                      <h1><i class="bi bi-cart-plus"></i></h1>
+                      <h1><i class="bi bi-bookmark-plus"></i></h1>
+                  </div>
+              </div>
+          </div>
+
+          <div class="image-container" style="background-image:url(https://ih1.redbubble.net/image.2573429948.3472/raf,360x360,075,t,fafafa:ca443f4786.jpg);width:270px;"> 
+              <div class="overlay p-2">
+                  <div class="overlay-text text-light">
+                      <h5 class="mb-3 underline fs-2">Vintage Scissors ~ $21</h5>
+                      <h1><i class="bi bi-heart"></i></h1>
+                      <h1><i class="bi bi-cart-plus"></i></h1>
+                      <h1><i class="bi bi-bookmark-plus"></i></h1>
+                  </div>
+              </div>
+          </div>
+
+          <div class="image-container" style="background-image:url(https://www.acexleather.com/cdn/shop/products/IMG_4525_2_2048x.jpg?v=1596896351);width:270px;"> 
+            <div class="overlay p-2">
+                <div class="overlay-text text-light">
+                    <p class="mb-3  underline fs-2">Leather Folder ~ $40</h5>
+                    <h1><i class="bi bi-heart"></i></h1>
+                    <h1><i class="bi bi-cart-plus"></i></h1>
+                    <h1><i class="bi bi-bookmark-plus"></i></h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="image-container" style="background-image:url(https://c4.wallpaperflare.com/wallpaper/760/753/232/vintage-notebook-locket-perfume-wallpaper-preview.jpg);width:270px;"> 
+          <div class="overlay p-2">
+              <div class="overlay-text text-light">
+                  <h5 class="mb-3 underline fs-2">Vintage Notebooks ~ $19</h5>
+                  <h1><i class="bi bi-heart"></i></h1>
+                  <h1><i class="bi bi-cart-plus"></i></h1>
+                  <h1><i class="bi bi-bookmark-plus"></i></h1>
+              </div>
+          </div>
+      </div>
+
+      </div>
+        </div>
+        <!-- STATIONARY -->
+
+        <!-- E_BOOKS -->
+        <div class="col-12 col-md-10 offset-md-2 pt-3 text-light pb-5 u-fade-type-right js-scroll-trigger">
+          <p class="text-md-end text-sm-center display-1 pe-md-3"><u>E-Luminary</u> Library</u></p>
+          <div class="d-flex scroll-container mt-3">
+  
+              <div class="image-container" style="background-image:url(https://w0.peakpx.com/wallpaper/98/432/HD-wallpaper-e-books-tablet-pc-electronic-books-touchpad-modern-technology-reading-books.jpg);width:270px;"> 
+                  <div class="overlay p-2">
+                      <div class="overlay-text text-light">
+                          <p class="mb-3  underline fs-2">E-Books ~ $25</h5>
+                          <h1><i class="bi bi-heart"></i></h1>
+                          <h1><i class="bi bi-cart-plus"></i></h1>
+                          <h1><i class="bi bi-bookmark-plus"></i></h1>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="image-container" style="background-image:url(https://www.shutterstock.com/image-photo/assam-india-april-10-2021-260nw-1953879349.jpg);width:270px;"> 
+                  <div class="overlay p-2">
+                      <div class="overlay-text text-light">
+                          <h5 class="mb-3 underline fs-2">Inshort</h5>
+                          <h1><i class="bi bi-heart"></i></h1>
+                          <h1><i class="bi bi-cart-plus"></i></h1>
+                          <h1><i class="bi bi-bookmark-plus"></i></h1>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="image-container" style="background-image:url(https://feeds.abplive.com/onecms/images/uploaded-images/2024/02/26/75564a41c1830197066865433dafaff91708943886703314_original.jpg?impolicy=abp_cdn&imwidth=1200&height=675);width:270px;"> 
+                  <div class="overlay p-2">
+                      <div class="overlay-text text-light">
+                          <h5 class="mb-3 underline fs-2">E-Reports</h5>
+                          <h1><i class="bi bi-heart"></i></h1>
+                          <h1><i class="bi bi-cart-plus"></i></h1>
+                          <h1><i class="bi bi-bookmark-plus"></i></h1>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="image-container" style="background-image:url(https://yt3.googleusercontent.com/3mJq5rzNDUSVtYaLhzdnfBuf4OzARREeCdlP51BGHLXixv1LiImfl7QbnU7hE1XUI0aXIFDb-TA=s900-c-k-c0x00ffffff-no-rj);width:270px;"> 
+                  <div class="overlay p-2">
+                      <div class="overlay-text text-light">
+                          <h5 class="mb-3 underline fs-2">Podcasts</h5>
+                          <h1><i class="bi bi-heart"></i></h1>
+                          <h1><i class="bi bi-cart-plus"></i></h1>
+                          <h1><i class="bi bi-bookmark-plus"></i></h1>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="image-container" style="background-image:url(https://cdn.prod.website-files.com/634e7aa49f5b025e1fd9e87b/652039f6d6eec22bc94097d5_Man_Having_Group_Videoconference_On_Laptop.jpeg);width:270px;"> 
+                  <div class="overlay p-2">
+                      <div class="overlay-text text-light">
+                          <h5 class="mb-3 underline fs-2">Webinars</h5>
+                          <h1><i class="bi bi-heart"></i></h1>
+                          <h1><i class="bi bi-cart-plus"></i></h1>
+                          <h1><i class="bi bi-bookmark-plus"></i></h1>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="image-container" style="background-image:url(https://wallpapers.com/images/hd/blogging-backdrop-8ifwoxtwf7mdg268.jpg);width:270px;"> 
+                <div class="overlay p-2">
+                    <div class="overlay-text text-light">
+                        <p class="mb-3  underline fs-2">Info. Blogs</h5>
+                        <h1><i class="bi bi-heart"></i></h1>
+                        <h1><i class="bi bi-cart-plus"></i></h1>
+                        <h1><i class="bi bi-bookmark-plus"></i></h1>
+                    </div>
+                </div>
+            </div>
+  
+            <div class="image-container" style="background-image:url(https://www.indiantelevision.com/sites/default/files/styles/smartcrop_800x800/public/images/tv-images/2019/10/19/News_Channels.jpg?itok=3QzcHcWL);width:270px;"> 
+              <div class="overlay p-2">
+                  <div class="overlay-text text-light">
+                      <h5 class="mb-3 underline fs-2">News Channels</h5>
+                      <h1><i class="bi bi-heart"></i></h1>
+                      <h1><i class="bi bi-cart-plus"></i></h1>
+                      <h1><i class="bi bi-bookmark-plus"></i></h1>
+                  </div>
+              </div>
+          </div>
+  
+          </div>
+        </div>
+        <!-- E_BOOKS -->
+        <!-- BUTTONS -->
+         <div class="col-8 offset-2 d-block text-center d-md-flex justify-content-md-evenly">
+          <a href="#"><button class="u-fade-type-static js-scroll-trigger btn btn-outline-light mt-3 fs-5 border-2 rounded-0">Order Now <i class="bi bi-arrow-right"></i></button></a>
+          <a href="#"><button class="u-fade-type-static js-scroll-trigger btn btn-outline-light mt-3 fs-5 border-2 rounded-0" id="about">Visit Now <i class="bi bi-arrow-right"></i></button></a>
+         </div>
+          <!-- <span style="position:absolute;width:2px;height:200px;bottom:-9%;left:5%;background-image:linear-gradient(white 0%,white 30%,black 30%);border-radius:25px;"></span> -->
+        </div>
+      </div>
+      <!-- STORE SLIDER -->
+    <!-- STORE_SECTION -->
+
+
+      <!-- News & Updates -->
+      <div class="container-fluid position-relative py-5">
+        <div class="row">
+          <div class="col">
+            <div class="">
+              <p class="fs-4 text-center text-md-start u-fade-type-left js-scroll-trigger" style="padding-left:85px">Lights On</p>
+              <p class="fw-bolder display-3 text-center text-md-start u-fade-type-left js-scroll-trigger" style="line-height:5px;padding-left:85px"><u>New</u>s</u></p>
+                <div class="d-flex justify-content-evenly u-fade-type-static js-scroll-trigger">
+                  <div class="news m-3 position-relative" style="background-image:url(n1.jpg);">
+                    <button class="btn btn-warning position-absolute bottom-50 end-0">Read More</button>
+                  </div>
+                  <div class="news m-3 position-relative" style="background-image:url(n2.jpg);">
+                    <button class="btn btn-warning position-absolute bottom-50 end-0">Read More</button>
+                  </div>
+                  <div class="news m-3 position-relative" style="background-image:url(n3.webp);">
+                    <button class="btn btn-warning position-absolute bottom-50 end-0">Read More</button>
+                  </div>
+                  <div class="news m-3 position-relative" style="background-image:url(n4.jpg);">
+                    <button class="btn btn-warning position-absolute bottom-50 end-0">Read More</button>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- News & Updates -->
+
+    <!-- CONTACT -->
+        <div class="container-fluid position-relative" id="contact">
+          <div class="row pt-3 row-cols-lg-2 row-cols-1">
+
+            <div class="text-light">
+              <p class="text-center text-lg-start fw-bolder mt-3" style="font-size:80px;">Cont<u>act  Us</u></p>
+              <p class="text-center text-lg-start fs-2 mt-3 fw-bolder">It's important for us to keep in touch with you, so we are always ready to answer any question question that intrests you, Shoot!</p>
+            </div>
+
+            <div class="text-center pb-4">
+              <form action="">
+                <input type="text" placeholder="Your Name" id="name" value=""> <br>
+                <input type="email" placeholder="Your Email" id="email" value=""> <br>
+                <input type="number" placeholder="Ph.No." id="number" value=""> <br>
+                <textarea name="" placeholder="Enter Your Thoughts" id=""></textarea> <br>
+                <button type="submit" class="btn btn-outline-light px-5 mt-5 rounded-0 border-5 fw-bolder" style="width:50%;">Submit</button>
+              </form>
+            </div>
+
+          </div>
+        </div>
+    <!-- CONTACT -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Tootip JS -->
+    <script>
+      const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+    <!-- Tooltip JS -->
+
+    <!-- CUSTOME JAVASCRIPT -->
+    <script src="script.js"></script>
+
+    </body>
+</html>
