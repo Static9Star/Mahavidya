@@ -69,8 +69,8 @@
           <div class="container-fluid mt-5">
             <div class="row pt-5">
               <div class="col-12">
-                <a href="#" class="ps-md-5 pt-5 u-fade-type-left js-scroll-trigger"><button class="btn btn-outline-light m-0 fs-5 border-2 rounded-0 ">VISIT STORE <i class="bi bi-arrow-right"></i></button></a>
-                <a href="#" class="ps-md-5 pt-5 u-fade-type-right js-scroll-trigger"><button class="btn btn-outline-light fs-5 border-2 rounded-0">MORE ABOUT US</button></a>
+                <a href="#" class="ps-md-5 pt-5 my-2 u-fade-type-left js-scroll-trigger"><button class="btn btn-outline-light m-0 fs-5 border-2 rounded-0 ">VISIT STORE <i class="bi bi-arrow-right"></i></button></a>
+                <a href="#" class="ps-md-5 pt-5 my-2 u-fade-type-right js-scroll-trigger"><button class="btn btn-outline-light fs-5 border-2 rounded-0">MORE ABOUT US</button></a>
               </div>
             </div>
           </div>
@@ -430,30 +430,55 @@
 
 
       <!-- News & Updates -->
-      <div class="container-fluid position-relative py-5">
-        <div class="row">
-          <div class="col">
-            <div class="">
-              <p class="fs-4 text-center text-md-start u-fade-type-left js-scroll-trigger" style="padding-left:85px">Lights On</p>
-              <p class="fw-bolder display-3 text-center text-md-start u-fade-type-left js-scroll-trigger" style="line-height:5px;padding-left:85px"><u>New</u>s</u></p>
-                <div class="d-flex justify-content-evenly u-fade-type-static js-scroll-trigger">
-                  <div class="news m-3 position-relative" style="background-image:url(n1.jpg);">
-                    <button class="btn btn-warning position-absolute bottom-50 end-0">Read More</button>
-                  </div>
-                  <div class="news m-3 position-relative" style="background-image:url(n2.jpg);">
-                    <button class="btn btn-warning position-absolute bottom-50 end-0">Read More</button>
-                  </div>
-                  <div class="news m-3 position-relative" style="background-image:url(n3.webp);">
-                    <button class="btn btn-warning position-absolute bottom-50 end-0">Read More</button>
-                  </div>
-                  <div class="news m-3 position-relative" style="background-image:url(n4.jpg);">
-                    <button class="btn btn-warning position-absolute bottom-50 end-0">Read More</button>
-                  </div>
-                </div>
-              </div>
+      <div class="container-fluid position-relative my-5" id="news">
 
+        <p class="fs-4 text-center text-md-start ps-md-5 u-fade-type-left js-scroll-trigger">Lights On</p>
+        <p class="fw-bolder display-3 text-center text-md-start ps-md-5 u-fade-type-left js-scroll-trigger" style="line-height:5px;"><u>New</u>s</u></p>
+        <div class="row">
+          <div>
+            <div class="d-block d-md-flex justify-content-evenly u-fade-type-static js-scroll-trigger">
+              <div class="news my-3 mx-auto position-relative u-fade-type-left js-scroll-trigger" style="background-image:url(n1.jpg);">
+                  <button class="btn btn-warning position-absolute bottom-50 end-0">Read More</button>
+              </div>
+              <div class="news my-3 mx-auto position-relative u-fade-type-static js-scroll-trigger" style="background-image:url(n2.jpg);">
+                <button class="btn btn-warning position-absolute bottom-50 end-0">Read More</button>
+              </div>
+              <div class="news my-3 mx-auto position-relative u-fade-type-right js-scroll-trigger" style="background-image:url(n4.jpg);">
+                <button class="btn btn-warning position-absolute bottom-50 end-0">Read More</button>
+              </div>
+              </div>
           </div>
         </div>
+
+        <!-- Crausol For FeedBack -->
+        <div id="carouselExampleInterval" class="carousel slide mt-5" data-bs-ride="carousel">
+          <p class="fw-bolder display-3 text-center pb-3 u-fade-type-left js-scroll-trigger mt-5" style="line-height:5px;">Fe<u>ed-Ba</u>ck</p>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+              <div class="d-flex justify-content-evenly">
+                <div class="feedback position-relative u-fade-type-left js-scroll-trigger">One</div>
+                <div class="feedback position-relative u-fade-type-static js-scroll-trigger">Two</div>
+                <div class="feedback position-relative u-fade-type-right js-scroll-trigger">Three</div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="1500">
+              <div class="d-flex justify-content-evenly">
+                <div class="feedback position-relative u-fade-type-left js-scroll-trigger">Four</div>
+                <div class="feedback position-relative u-fade-type-static js-scroll-trigger">Five</div>
+                <div class="feedback position-relative u-fade-type-right js-scroll-trigger">Six</div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-dark rounded-5" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-dark rounded-5" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- Crausol for FeedBack -->
       </div>
       <!-- News & Updates -->
 
@@ -477,6 +502,27 @@
             </div>
 
           </div>
+
+          <!-- Footer -->
+          <div class="row pt-3 row-cols-1 mt-5 border-top border-light border-3">
+            <div>
+              <ul class="nav d-flex align-items-center justify-content-center ">
+                <li class="nav-item">
+                  <a class="nav-link fs-4 py-5 text-light" href="#hero">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-4 py-5 text-light" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-4 py-5 text-light" href="#store">Store</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-4 py-5 text-light" href="#news">News</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Footer -->
         </div>
     <!-- CONTACT -->
 
